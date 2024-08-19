@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-dark-blue text-white h-24">
-      <div className="container m-auto flex justify-between items-center h-full">
+      <div className="lg:container px-4 m-auto flex justify-between items-center h-full">
         <h1 className="text-4xl">Clinget</h1>
 
         {/* ! mudar md para lg */}
@@ -67,7 +67,7 @@ export const Search = () => {
   const [typingSearch, setTypingSearch] = useState('');
 
   return (
-    <label className="border border-gray-300 relative w-52 h-10 flex items-center justify-center px-1 cursor-text rounded-lg overflow-hidden" 
+    <label className="border border-gray-300 relative w-52 h-10 flex items-center justify-center px-1 cursor-text rounded-md overflow-hidden" 
     //onClick={()=>{searchInput.current?.focus()}}
     htmlFor="header-search-input"
     >

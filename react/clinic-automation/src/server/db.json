@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "anab.maurityy@gmail.com",
+      "name": "Bia",
+      "password": "1234",
+      "patients": [
+        {
+          "id":"200768",
+          "name": "joão",
+          "age": 70,
+          "description": "demência alta com prejuízo visual"
+        }
+      ]
+    }
+  ]
+}
